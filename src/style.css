@@ -1,0 +1,75 @@
+body   {
+/*background-color: #BDBDBD;*/
+background-image: url("../image/cifrado.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+#titulo h1 {
+  color: #e5e7ea;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 44px;
+    margin-left: 528px;
+    display: inline-block;
+    text-align: center;
+}
+
+#mensaje h2 {
+  color: #214377;
+    font-family: 'Rock Salt', cursive;
+    font-size: 34px;
+    margin-left: 550px;
+    display: inline-block;
+    text-align: center;
+}
+
+#texto {
+  margin-left: 630px;
+}
+
+#mensaje2 h2 {
+  color: #214377;
+    font-family: 'Rock Salt', cursive;
+    font-size: 34px;
+    margin-left: 550px;
+    display: inline-block;
+    text-align: center;
+}
+
+#texto2 {
+  margin-left: 630px;
+
+}
+
+
+#mensaje3 h2 {
+  color: #214377;
+    font-family: 'Rock Salt', cursive;
+    font-size: 34px;
+    margin-left: 550px;
+    display: inline-block;
+    text-align: center;
+}
+
+#texto3{
+  margin-left: 630px;
+
+
+}
+
+#mensaje4 h2 {
+  color: #214377;
+    font-family: 'Rock Salt', cursive;
+    font-size: 34px;
+    margin-left: 550px;
+    display: inline-block;
+    text-align: center;
+}
+
+#txt3 {
+  margin-left: 630px;
+
+
+}
