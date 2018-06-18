@@ -5,7 +5,7 @@
   let cifrarTexto = "";
   let asciiFormula = 0;
   let clave= 33;
-  let encode = cipher.encode(cifrarTexto, clave)
+//  let encode = cipher.encode(cifrarTexto, clave)
 
 //se agrega un loop para que comienza a hacer el cifrado de texto
   for (let i= 0; i < usuario.length; i++) {
@@ -44,7 +44,7 @@ const descifrar = () => {
   let usuario2 = document.getElementById('texto3').value;
   let acsiiFormula = 0;
   let clave = 33;
-  let decode = cipher.decode(descifrarTexto, clave)
+  //let decode = cipher.decode(descifrarTexto, clave)
 
   //SE AGREGA UN LOOP PARA EMPEZAR A DESCIFRAR EL TEXTO QUE EL USUARIO QUIERA INGRESAR
   for (let i= 0; i < usuario2.length; i++) {

@@ -16,7 +16,7 @@
     <div class="contenedor">
 
     <div id= "titulo"><h1> Cifrado César </h1></div>
-    <br><p> ¡¡Ingresa textos que solo tú y tus amigos entiendan, recuerda la clave esta en el 33!! </p></br>
+    <p> ¡¡Ingresa textos que solo tú y tus amigos entiendan, recuerda la clave esta en el 33!! </p>
 
 
     <div id="root"></div>
@@ -24,13 +24,13 @@
 
     <div id= "mensaje"><h2>Escribe tu mensaje:</h2></div>
     <input type="text" id="texto">
-    <input type="button" class="btn btn-secondary" class="btn btn-secondary btn-lg" value="aceptar" id=encodeButton>
+    <input type="button" class="btn btn-secondary" class="btn btn-secondary btn-lg" value="aceptar" onclick="cifrar()">
 
     <div id= "mensaje2"><h2>Tu mensaje es:</h2></div>
     <br><input type= "texto" id="texto2"></br>
     <div id= "mensaje3"><h2>Descifra tu mensaje</h2></div>
     <input type="text" id="texto3">
-    <input type="button" class="btn btn-secondary" class="btn btn-secondary btn-lg" value="descifra el mensaje" id=decodeButton >
+    <input type="button" class="btn btn-secondary" class="btn btn-secondary btn-lg" value="descifra el mensaje" onclick="descifrar()">
 
     <div id= "mensaje4"><h2>Tu mensaje descifrado es:</h2></div>
     <br><input type ="text" id= 'txt3'></br>
