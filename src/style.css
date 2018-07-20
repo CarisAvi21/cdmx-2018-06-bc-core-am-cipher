@@ -1,3 +1,4 @@
+
 body   {
 /*background-color: #BDBDBD;*/
 background-image: url("../image/cifrado.jpg");
@@ -7,7 +8,13 @@ background-size: 100% 100%;
 background-attachment: fixed;
 }
 
-#titulo h1 {
+body:hover{
+  background-blend-mode: soft-light;
+  transition: all .30s ease-in-out;
+  background-image: url("../image/cifrado.jpg");  
+}
+
+.titulo h1 {
   color: #e5e7ea;
     font-family: 'Seymour One', sans-serif;
     font-size: 44px;
