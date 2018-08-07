@@ -1,21 +1,18 @@
 
 body   {
-/*background-color: #BDBDBD;*/
-background-image: url("../image/cifrado.jpg");
-background-position: center center;
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-attachment: fixed;
+margin: 0;
 }
 
-/*body:hover{
-  background-blend-mode: soft-light;
-  transition: all .30s ease-in-out;
-  background-image: url("../image/cifrado.jpg");  
-}*/
+.container-fluid{
+  background-image: url("../image/hoja-de-cuaderno.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  }
 
 .titulo h1 {
-  color: #e5e7ea;
+  color: blue;
     font-family: 'Seymour One', sans-serif;
     font-size: 44px;
     margin-left: 528px;
@@ -27,83 +24,100 @@ p {
   font-family: 'Flavors', cursive;
   font-size: 35px;
   color: #85a4d4;
-  text-align: center;
+  /*text-align: center;*/
+  /*margin-left: 528px;*/
 }
 
-#mensaje h2 {
+.mensaje h2 {
   color: #85a4d4;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    margin-left: 550px;
+    /*margin-left: 550px;*/
     display: inline-block;
     text-align: center;
 }
 
-#texto {
-  margin-left: 630px;
+.texto {
+  /*margin-left: 630px;*/
   border: inset;
   border-width: medium;
   border-radius: 10px;
   width: 250px;
-  height: 100px;
+  height: 30px;
 }
 
-#mensaje2 h2 {
+.clave{
+  border: inset;
+  border-width: medium;
+  border-radius: 10px;
+  width: 250px;
+  height: 25px;
+}
+
+.mensaje2 h2 {
   color: #85a4d4;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    margin-left: 550px;
+    /*margin-left: 550px;*/
     display: inline-block;
     text-align: center;
 }
 
-#texto2 {
-  margin-left: 630px;
+.texto2 {
+  /*margin-left: 630px;*/
   border: inset;
   border-width: medium;
   border-radius: 10px;
   width: 250px;
-  height: 100px;
+  height: 30px;
 
 
 }
 
 
-#mensaje3 h2 {
+.mensaje3 h2 {
   color: #85a4d4;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    margin-left: 550px;
+    /*margin-left: 550px;*/
     display: inline-block;
     text-align: center;
 }
 
-#texto3{
-  margin-left: 630px;
+.texto3{
+  /*margin-left: 630px;*/
   border: inset;
   border-width: medium;
   border-radius: 10px;
   width: 250px;
-  height: 100px;
+  height: 30px;
 }
 
 
-#mensaje4 h2 {
+.mensaje4 h2 {
   color: #85a4d4;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    margin-left: 550px;
+    /*margin-left: 550px;*/
     display: inline-block;
     text-align: center;
 }
 
-
-#txt3 {
-  margin-left: 630px;
+.clave2{
   border: inset;
   border-width: medium;
   border-radius: 10px;
   width: 250px;
-  height: 100px;
+  height: 25px;
+}
+
+
+.txt3 {
+  /*margin-left: 630px;*/
+  border: inset;
+  border-width: medium;
+  border-radius: 10px;
+  width: 250px;
+  height: 30px;
 
 }
