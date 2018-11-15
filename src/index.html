@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+<div class="container-fluid">
     <div class="row">
     <header class="titulo">
       <div class="col-l-6">
@@ -36,32 +36,28 @@
 
   <input type="text" class="clave" class="size" name="" value="" placeholder="ingresa tu clave" id="numero">
 
-  <input type="button" class="btn btn-secondary" class="btn btn-secondary btn-lg" value="cifrar mensaje" id="encode">
+  <input type="button" class="btn btn-danger" class="btn btn-danger btn-lg" value="cifrar mensaje" id="encode">
 
   <div class="mensaje2 col-l-6">
-    <h2>Tu mensaje es:</h2>
+    <br><h2>Tu mensaje es:</h2>
+    <input type="texto" class="texto2 col-l-6" id="texto2"></br>
   </div>
 
-  <br>
-  <input type="texto" class="texto2 col-l-6" id="texto2">
-  </br>
-  </div>
-
-  <br>
   <div class="mensaje3 col-l-6">
-    <h2>Descifra tu mensaje</h2>
+    <br><h2>Descifra tu mensaje</h2></br>
+  
+    <input type="text" class="texto3 col-l-6" id="texto3">
+
+    <input type="text" class="clave2" class="size" name="" value="" placeholder="ingresa tu clave" id="numero2">
+
+    <input type="button" class="btn btn-danger" class="btn btn-danger btn-lg" value="descifra el mensaje" id="decode">
   </div>
-  <input type="text" class="texto3 col-l-6" id="texto3">
-
-  <input type="text" class="clave2" class="size" name="" value="" placeholder="ingresa tu clave" id="numero2">
-
-  <input type="button" class="btn btn-secondary" class="btn btn-secondary btn-lg" value="descifra el mensaje" id="decode">
 
   <div class="mensaje4 col-l-6">
-    <h2>Tu mensaje descifrado es:</h2>
+    <br><h2>Tu mensaje descifrado es:</h2>
+    <input type="text" class="txt3" id="txt3"></br>
+   </div>
   </div>
-  <input type="text" class="txt3" id="txt3">
-</div>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>

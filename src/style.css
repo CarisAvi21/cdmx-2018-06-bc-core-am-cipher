@@ -7,15 +7,17 @@ margin: 0;
   background-image: url("../image/hoja-de-cuaderno.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
   }
 
 .titulo h1 {
-  color: blue;
+  color: rgb(175, 39, 57);
     font-family: 'Seymour One', sans-serif;
     font-size: 44px;
-    margin-left: 528px;
+    margin-left: 500px;
     display: inline-block;
     text-align: center;
 }
@@ -23,22 +25,22 @@ margin: 0;
 p {
   font-family: 'Flavors', cursive;
   font-size: 35px;
-  color: #85a4d4;
+  color: #0a0f16;
   /*text-align: center;*/
-  /*margin-left: 528px;*/
+  margin-left: -50px;
 }
 
 .mensaje h2 {
-  color: #85a4d4;
+  color: #121b27;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    /*margin-left: 550px;*/
+    margin-left: 350px;
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .texto {
-  /*margin-left: 630px;*/
+  margin-left: 315px;
   border: inset;
   border-width: medium;
   border-radius: 10px;
@@ -55,16 +57,16 @@ p {
 }
 
 .mensaje2 h2 {
-  color: #85a4d4;
+  color: #121b27;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    /*margin-left: 550px;*/
+    margin-left: 310px;
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .texto2 {
-  /*margin-left: 630px;*/
+  margin-left: 630px;
   border: inset;
   border-width: medium;
   border-radius: 10px;
@@ -76,16 +78,16 @@ p {
 
 
 .mensaje3 h2 {
-  color: #85a4d4;
+  color: #121b27;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    /*margin-left: 550px;*/
+    margin-left: 320px;
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .texto3{
-  /*margin-left: 630px;*/
+  margin-left: 310px;
   border: inset;
   border-width: medium;
   border-radius: 10px;
@@ -95,10 +97,10 @@ p {
 
 
 .mensaje4 h2 {
-  color: #85a4d4;
+  color: #121b27;
     font-family: 'Seymour One', sans-serif;
     font-size: 34px;
-    /*margin-left: 550px;*/
+    margin-left: 310px;
     display: inline-block;
     text-align: center;
 }
@@ -113,11 +115,19 @@ p {
 
 
 .txt3 {
-  /*margin-left: 630px;*/
+  margin-left: 630px;
   border: inset;
   border-width: medium;
   border-radius: 10px;
   width: 250px;
   height: 30px;
 
+}
+
+
+/*Responsive*/
+@media only screen and (min-width: 1198px){
+  .font-div{
+      padding: 42.5px 0px!important;
+  }
 }
