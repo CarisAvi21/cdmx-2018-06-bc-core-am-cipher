@@ -1,7 +1,5 @@
 # Cifrado César
-
-![cifrado](https://user-images.githubusercontent.com/39393016/49199774-429f9f00-f35f-11e8-90ca-dc580d55f9b1.png)
-
+![cifrado 2](https://user-images.githubusercontent.com/39393016/49200090-c908b080-f360-11e8-866c-bbc8f3d5427f.png)
 
 ## Preámbulo
 
