@@ -1,12 +1,15 @@
 # Cifrado César
 
+![cifrado](https://user-images.githubusercontent.com/39393016/49199774-429f9f00-f35f-11e8-90ca-dc580d55f9b1.png)
+
+
 ## Preámbulo
 
 Esta pagina esta diseñada para que con tus amigos puedas mandar mensajes sin que otros sepan que se estan escribiendo
 es una herramienta útil para planear fiestas secretas o alguna sorpresa a algun ser querido.
 
-Se utiliza una clave ya establecida de 33, se penso en una interfaz sencilla de utilizar para los usuarios
-en donde pueden cifrar y descifrar su mensaje sin necesidad de estar cambiado de pagina o siguiendo muchas instrucciones.
+Se utiliza una clave que el usuario decidirá, se penso en una interfaz sencilla de utilizar.
+Los usuarios pueden cifrar y descifrar su mensaje sin necesidad de estar cambiado de pagina o siguiendo muchas instrucciones.
 
 Se esta implementando una versión para mobiles, aún esta en proceso de que se logre apreciar bien, sin que se muevan los botones
 y las cajas de texto.
